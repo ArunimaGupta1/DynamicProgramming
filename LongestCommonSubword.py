@@ -3,7 +3,7 @@ def LCW(A,B):
     m = len(B)
 
     #Initializing first row and column with 0 (for ease i intialized everthing 0 :p)
-    dp = [[0 for x in range(m + 1)] for y in range(n + 1)]
+    dp = [[0]*(m+1) for _ in range(n + 1)]
 
     final = 0
 
